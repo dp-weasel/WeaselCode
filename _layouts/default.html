@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang }}">
 
   <head>
     <meta charset='utf-8'>
@@ -32,8 +32,11 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Follow me on my
-          <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+        <p class="copyright"> Puedes seguirme en mi twitter
+	<a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
+        </p>
+        <p class="copyright"> Y ver mis proyectos en mi GitHub
+	<a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
         </p>
       </footer>
     </div>
