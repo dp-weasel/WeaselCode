@@ -77,10 +77,12 @@ En el ejemplo anterior, los número 1, 2 y 3 déntro de los ítems no tienen la 
 ```
 * * *
 ### Propiedades de flexbox
-#### flex-direction:
+#### 1) flex-direction:
 flex-direction establece el eje principal de los elementos y el sentido de la misma.
 
-Para defectos los elementos se ordenan de en el eje horizontal de derecha a izquierda, esto es porque por defecto viene con **flex-direction: row;**
+1.1) **flex-direction: row;**
+
+Esta propiedad es la que viene establecida por defecto y lo que hace es ordenar los elementos de manera horizontal con sentido de Izquierda a Derecha.
 
 ###### css
 ```css
@@ -96,7 +98,9 @@ Para defectos los elementos se ordenan de en el eje horizontal de derecha a izqu
 ###### Display
 ![flex image 02](/assets/images/flexbox02.jpg)
 
-Para invertir el sentido y ordenar los elementos de Derecha a Izquierda se utiliza la propiedad **flex-direction: row-reverse;**
+1.2) **flex-direction: row-reverse;**
+
+Tiene la misma función que la propiedad anterior, pero con sentido invertido. Esto es de Derecha a Izquierda.
 
 ###### css
 ```css
@@ -112,7 +116,9 @@ Para invertir el sentido y ordenar los elementos de Derecha a Izquierda se utili
 ###### Display
 ![flex image 03](/assets/images/flexbox03.jpg)
 
-Para establecer el eje principal de manera vertical se establece la propiedad **flex-direction: column;**.
+1.3) **flex-direction: column;**
+
+Esta propiedad invierte el sentido del eje principal estableciendolo de manera vertical con dirección de arriba a abajo.
 
 ###### css
 ```css
@@ -128,7 +134,9 @@ Para establecer el eje principal de manera vertical se establece la propiedad **
 ###### Display
 ![flex image 04](/assets/images/flexbox04.jpg)
 
-En este caso los elementos se ordenaron de arriba hacia abajo, de la misma manera que hicimos con la propiedad **row**, podemos invertir este orden para que los items se muestren de abajo hacia arriba con la propiedad **flex-direction: column-reverse;**
+1.4) **flex-direction: column-reverse;**
+
+De la misma manera que hicimos con la propiedad **row**, con esta propiedad invertimos la dirección dispuesta de los elemeton para que se muestren ahora de abajo hacia arriba.
 
 ###### css
 ```css
